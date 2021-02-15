@@ -23,6 +23,22 @@ hrAngle = map(hr%12,0,12,-0,360);1
 
 function draw() {
   background(200);  
+    textSize(35);
+  text("TICK TOK",500,500);
+   textSize(30);
+  text("TICK TOK",500,450);
+   textSize(25);
+  text("TICK TOK",500,400);
+   textSize(20);
+  text("TICK TOK",500,350);
+   textSize(15);
+  text("TICK TOK",500,300);
+   textSize(10);
+  text("TICK TOK",500,250);
+   textSize(5);
+  text("TICK TOK",500,200);
+   textSize(0);
+  text("TICK TOK",500,150);
 imageMode(CENTER);
   image(clock,197,200,300,300)
 
@@ -57,21 +73,6 @@ stroke(0);
   line(0,0,80,0);
   pop();
 
-  textSize(35);
-  text("TICK TOK",500,500);
-   textSize(30);
-  text("TICK TOK",500,450);
-   textSize(25);
-  text("TICK TOK",500,400);
-   textSize(20);
-  text("TICK TOK",500,350);
-   textSize(15);
-  text("TICK TOK",500,300);
-   textSize(10);
-  text("TICK TOK",500,250);
-   textSize(5);
-  text("TICK TOK",500,200);
-   textSize(0);
-  text("TICK TOK",500,150);
+
   
 }
